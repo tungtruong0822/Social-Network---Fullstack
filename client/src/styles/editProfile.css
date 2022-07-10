@@ -1,0 +1,53 @@
+.editProfile {
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background-color: rgba(0, 0, 0, 0.3);
+  width: 100%;
+  height: 100%;
+}
+.editProfile_form {
+  display: flex;
+  justify-content: center;
+  margin-top: 60px;
+}
+.editProfile_form form {
+  position: relative;
+  background-color: white;
+  padding: 20px;
+  border-radius: 10px;
+  width: 400px;
+  height: 85vh;
+  overflow: hidden;
+  overflow-y: auto;
+}
+.editProfile_form form span {
+  font-size: 35px;
+  position: absolute;
+  top: -6px;
+  right: 11px;
+  font-weight: bold;
+  color: red;
+}
+.editProfile_form form span:hover {
+  color: pink;
+}
+.edit_avatar {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 5px;
+}
+.edit_avatar img {
+  width: 200px;
+  height: 200px;
+  object-fit: contain;
+}
+.edit_coverPicture {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 5px;
+}

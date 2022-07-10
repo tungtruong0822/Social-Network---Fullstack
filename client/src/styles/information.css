@@ -1,0 +1,15 @@
+.informations {
+  flex: 9;
+  border-left: 1px solid #333;
+  display: flex;
+  justify-content: center;
+}
+.informations_content {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.informations_content .card {
+  width: 200px;
+  margin: 0 10px;
+}

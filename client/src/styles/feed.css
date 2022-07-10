@@ -1,0 +1,29 @@
+.sidebarFriend {
+  display: flex;
+  align-items: center;
+  margin-bottom: 15px;
+}
+
+.sidebarFriendImg {
+  width: 32px;
+  height: 32px;
+  border-radius: 50%;
+  object-fit: cover;
+  margin-right: 10px;
+}
+.feed {
+  flex: 6;
+}
+.feedWrapper {
+  padding: 20px;
+  width: 100%;
+}
+.post-container {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.post-container-center {
+  width: 80%;
+}

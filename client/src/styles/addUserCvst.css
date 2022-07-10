@@ -1,0 +1,115 @@
+.AddUserCvst {
+  width: "100%";
+  height: "100%";
+  position: relative;
+}
+.AddUserCvst_header {
+  width: "100%";
+  height: "100%";
+  margin: 20px 10px;
+  position: relative;
+}
+.AddUserCvst_info {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  font-size: 20px;
+  font-weight: 500px;
+  text-decoration: underline;
+}
+.AddUserCvst_input {
+  background-color: rgb(240, 242, 245);
+  width: 93%;
+  height: 40px;
+  border-radius: 30px;
+  border: none;
+  outline: none;
+  padding-left: 10px;
+}
+.AddUserCvst_input:focus {
+  outline: none;
+}
+.AddUserCvst_Cancel {
+  position: absolute;
+  top: 0px;
+  right: 5px;
+  height: 40px;
+}
+.AddUserCvst_Cancel .btn-danger {
+  height: 40px;
+  border-radius: 0px;
+  border-top-right-radius: 30px;
+  border-bottom-right-radius: 30px;
+}
+.showSearchAddUser {
+  position: absolute;
+  top: 70%;
+  left: 10px;
+  width: 100%;
+}
+.setNameGroup {
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  z-index: 10;
+  display: flex;
+  padding-top: 130px;
+  align-items: center;
+  flex-direction: column;
+  text-align: center;
+  animation: showSetNameGroup ease-in-out 0.3s;
+}
+@keyframes showSetNameGroup {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+.setNameGroup_content {
+  width: 450px;
+  background-color: white;
+  padding: 25px 10px;
+  border-radius: 20px;
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px,
+    rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px,
+    rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
+.setNameGroup p {
+  margin: 0;
+  padding: 0;
+  font-size: 50px;
+  font-weight: 900;
+  line-height: 30px;
+}
+.setNameGroup span {
+  font-size: 12px;
+  text-decoration: underline;
+  color: orange;
+}
+.setNameGroup i {
+  display: block;
+}
+.setNameGroup_info {
+}
+.setNameGroup_input {
+  margin-top: 10px;
+}
+.setNameGroup_input input {
+  border-radius: 20px;
+  outline: none;
+  padding-left: 20px;
+}
+.setNameGroup_btns {
+  margin: 20px 0px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.setNameGroup_btns button {
+  border: none;
+}

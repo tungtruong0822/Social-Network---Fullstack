@@ -1,0 +1,41 @@
+.login {
+  display: flex;
+  background-color: beige;
+}
+.login-sidebar {
+  flex: 6;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.login-rightbar {
+  flex: 6;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.loginDesc {
+  font-size: 24px;
+  font-weight: bold;
+  color: #555;
+}
+.loginLogo {
+  font-size: 50px;
+  font-weight: 800;
+  color: #1775ee;
+  margin-bottom: 10px;
+}
+.login-info {
+  width: 80%;
+}
+
+.form-Login {
+  background-color: white;
+  padding: 40px;
+  border-radius: 10px;
+  width: 70%;
+}
